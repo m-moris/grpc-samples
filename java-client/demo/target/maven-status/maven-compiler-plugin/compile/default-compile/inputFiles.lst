@@ -1,0 +1,7 @@
+/work/grpc-samples/java-client/demo/src/main/java/com/example/App.java
+/work/grpc-samples/java-client/demo/src/main/java/com/example/demo/HelloReplyOrBuilder.java
+/work/grpc-samples/java-client/demo/src/main/java/com/example/demo/HelloRequestOrBuilder.java
+/work/grpc-samples/java-client/demo/src/main/java/com/example/demo/HelloRequest.java
+/work/grpc-samples/java-client/demo/src/main/java/com/example/demo/HelloReply.java
+/work/grpc-samples/java-client/demo/src/main/java/com/example/demo/GreeterGrpc.java
+/work/grpc-samples/java-client/demo/src/main/java/com/example/demo/HelloWorldProto.java

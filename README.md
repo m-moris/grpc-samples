@@ -47,6 +47,8 @@ $  grpcurl -plaintext -d '{"name" : "moris"}' localhost:50051 Greeter.SayHello
 
 ## Java
 
+### サーバー
+
 `protoc-gen-grpc-java` が必要。普通は、Mavenでプラグインを利用すると自動生成してくれるが、ここでは手動生成してみた。自動生成用の実行ファイルは、プラグインに含まれている。
 
 全体をクローンして、以下のフォルダでビルドする。
@@ -71,6 +73,10 @@ protoc --java_out=./java/demo/src/main/java --grpc-java_out=./java/demo/src/main
 ```sh
 mvn clean package exec:java -Dexec.mainClass=com.example.App
 ```
+
+### クライアント
+
+
 
 ## 参考
 
